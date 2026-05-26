@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Maria Graciel Cruz Caceres"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Universidad Católica San Pablo"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "AI Engineer & Researcher | Causal Multimodal VideoQA | CVPR 2026"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "AI Engineer at EY's Generative AI Hub and independent researcher on causal reasoning over human affective states in multimodal video. LXCV Workshop, CVPR 2026."
     # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+    #social:
+    #  twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -35,7 +34,7 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: {light: "minimal", dark: "solar"}
     # Optional: Override theme pack colors
     colors:
       primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
@@ -69,11 +68,11 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "none"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "spacious"
+    spacing: "compact"
     # Avatar shape in author profiles
-    avatar_shape: circle # circle | square | rounded
+    avatar_shape: rounded # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -86,11 +85,11 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center # left | center | right
+    align: left # left | center | right
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
@@ -115,11 +114,11 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: ""
     license:
       type: cc # cc | custom
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -165,7 +164,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa # apa | mla | chicago | ieee
+      style: ieee # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH

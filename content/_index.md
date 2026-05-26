@@ -14,7 +14,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/MariaGracielCruzCaceres-CurriculumVitae.pdf
       headings:
         about: ''
         education: ''
@@ -38,11 +38,25 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research sits at the intersection of **causal VideoQA** and **affective computing**.
+        Current models excel at explaining physical causation — *why did the ball roll?* — but
+        degrade sharply when the causal subject is a human emotional or intentional state.
+        I identified this failure mode while studying multimodal intent recognition during the
+        Google Explore CSR fellowship, and I'm building benchmarks and retrieval-augmented
+        methods to address it.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My ongoing work, *Asking Why*, proposes causal, temporally-grounded QA over
+        conversational video — retrieving timestamped evidence clips and generating connected
+        natural language explanations for queries like *"why did she disengage?"*.
+        Accepted for poster presentation at the **LatinX in Computer Vision (LXCV) Workshop,
+        CVPR 2026**.
 
-        Please reach out to collaborate 😃
+        Alongside research, I build production multi-agent LLM systems at EY's Generative AI
+        Hub — LangGraph pipelines, enterprise RAG, and self-correcting code generation for
+        major financial institutions in Brazil.
+
+        Looking for PhD opportunities in multimodal video understanding and affective computing.
+        If your work lives at that intersection, [reach out](mailto:mariagcruzcaceres@gmail.com).
     design:
       columns: '1'
   - block: collection
@@ -75,35 +89,6 @@ sections:
           - events
     design:
       view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

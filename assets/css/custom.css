@@ -1,0 +1,41 @@
+/* Hide featured image container when no actual image exists */
+.relative.overflow-hidden.aspect-\[16\/9\] {
+  display: none !important;
+}
+
+/* Show only if it contains an actual img tag with valid src */
+.relative.overflow-hidden.aspect-\[16\/9\]:has(img[src]:not([src=""])) {
+  display: block !important;
+}
+
+
+/* Skills: Hide progress bars, show as simple list */
+.skills-wrapper {
+  display: none !important;
+}
+
+.skills-percent {
+  display: none !important;
+}
+
+/* Skills: Add bullets */
+.skills-content {
+  display: list-item !important;
+  list-style-type: disc !important;
+  margin-left: 1.5rem !important;
+}
+
+/* Languages: Hide circular progress charts, show as simple list */
+svg.transform.-rotate-90 {
+  display: none !important;
+}
+
+/* Hide percentage text in circles */
+span.absolute.text-3xl {
+  display: none !important;
+}
+
+/* Hide empty circle container */
+.flex.items-center.justify-center.w-28.h-28 {
+  display: none !important;
+}

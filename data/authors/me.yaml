@@ -2,115 +2,160 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Maria Graciel Cruz Caceres
+  given: Maria Graciel
+  family: Cruz Caceres
+  alternate: ''
+  pronunciation: ''
+#  pronouns: she/her
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: AI Engineer & Independent Researcher
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I build production multi-agent LLM systems at EY's Generative AI Hub, and I research
+  multimodal video understanding at the intersection of causal reasoning and affective
+  computing. My work investigates why models that handle physical causal reasoning degrade
+  when the causal subject is a human emotional state — a failure mode I identified during
+  a Google Explore CSR fellowship and am now pursuing as a sustained research direction.
+  First-author poster at the LatinX in Computer Vision (LXCV) Workshop, CVPR 2026.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Ernst & Young — Generative AI Hub
+    url: https://www.ey.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:mariagcruzcaceres@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/Magrcruz
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://www.linkedin.com/in/maria-graciel-cruz-caceres/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0002-8687-3915
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Causal Video Question Answering
+  - Affective Computing
+  - Multimodal Learning
+  - LLM Systems & Agents
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: BSc Computer Science — Artificial Intelligence Concentration
+    institution: Universidad Católica San Pablo, Arequipa, Peru
+    start: 2019-03-01
+    end: 2024-12-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      GPA: 4.0 · 1st Place, CS Program (2019–2024).
+      Thesis: Efficient Image Editing Using Compressed Latent Representations in Diffusion Models.
+  - degree: Study Abroad — Computer Science
+    institution: Pontifícia Universidade Católica do Rio de Janeiro, Brazil
+    start: 2023-03-01
+    end: 2023-12-31
+    summary: |
+      Coursework: Data Science, Machine Learning, Human-Computer Interaction.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: AI Engineer — Technology (Promoted ahead of standard 12-month cycle)
+    org: Ernst & Young — Generative AI Hub, Rio de Janeiro, Brazil
+    start: 2025-10-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Technical lead on production LLM systems for major financial institutions.
+      Credit Portability Engine: LangGraph + Azure OpenAI, natural language-to-PostgreSQL pipeline, sliding-window memory, React/TypeScript UI, OpenTelemetry observability.
+      Automated Data Engineering: multi-agent self-correcting LangGraph system; reduced a 2–3 month manual engineering process to a single human-in-the-loop validator. Docker, FastAPI/Pydantic, Pytest.
+  - role: AI Engineer — Technology
+    org: Ernst & Young — Generative AI Hub, Rio de Janeiro, Brazil
+    start: 2025-02-01
+    end: 2025-10-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      CodeJumper (WSF/JS → Python migration): multi-stage LangGraph AST pipeline with LLM-as-judge quality gate; 75% reduction in conversion time.
+      RFP Intelligence: RAG system (FAISS) over procurement contracts for bid/no-bid signal generation; Azure Functions + Power Apps.
+  - role: Data Engineer — Technology
+    org: NTT Data, Arequipa, Peru
+    start: 2024-10-01
+    end: 2025-02-01
+    summary: |
+      Engineered end-to-end data pipeline in Scala on Databricks for a bank-regulated report (80-field BRD, 22 unified tables).
+      Implemented AES-256 encryption module for automated daily transfer of 20 sensitive reports.
+  - role: Research Assistant
+    org: Universidad Católica San Pablo & Universidad La Salle, Peru
+    start: 2022-02-01
+    end: 2023-10-31
+    summary: |
+      Applied Transformer-based architectures to MHC-peptide binding classification for neoantigen detection in personalized cancer vaccine development.
+      Systematic analysis of 50+ papers; co-authored two peer-reviewed publications (JIB 2024, PACBB 2023).
+  - role: Teaching Assistant — Advanced Data Structures
+    org: Universidad Católica San Pablo, Peru
+    start: 2023-08-01
+    end: 2023-12-31
+    summary: |
+      Led class sessions for one of Peru's most competitive CS programs (ABET-CAC accredited).
 
 skills:
-  - name: Technical Skills
+  - name: Generative AI & LLMs
     items:
-      - label: Python
+      - label: LangChain / LangGraph
         level: 5
-      - label: Machine Learning
+      - label: Azure OpenAI
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: RAG / FAISS
+        level: 5
+      - label: AI Agents
+        level: 5
+  - name: ML, CV & Multimodal
     items:
-      - label: Academic Writing
+      - label: PyTorch
         level: 5
-      - label: Conference Presentations
+      - label: HuggingFace Transformers
+        level: 5
+      - label: BERT / Latent Diffusion
         level: 4
-      - label: Grant Proposals
+      - label: Multimodal Fusion
+        level: 4
+  - name: Cloud & Engineering
+    items:
+      - label: Azure / AWS (Certified Cloud Practitioner)
+        level: 4
+      - label: Docker / FastAPI / Pydantic
+        level: 5
+      - label: React / TypeScript
+        level: 4
+      - label: Scala / Spark / Databricks
         level: 4
 
 languages:
-  - name: English
+  - name: Spanish
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
+    level: 5
+    label: C1 — Fluent
+  - name: Portuguese
     level: 4
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: CVPR Full Registration Grant — Poster Presenter
+    awarder: LatinX in Computer Vision (LXCV) Workshop, CVPR 2026
+    date: "2026-06-01"
+    summary: Selected as first-author poster presenter at the LXCV Workshop, CVPR 2026.
     icon: hero/trophy
+  - title: Khipu AI Conference Scholarship
+    awarder: Khipu Latin American AI Conference
+    date: "2025-01-01"
+    summary: Awarded for image diffusion research presented as a poster.
+    icon: hero/academic-cap
+  - title: Google Explore CSR Research Fellowship
+    awarder: Google
+    date: "2024-06-01"
+    summary: Competitive Latin American undergraduate AI research program. Conducted multimodal intent recognition research on MIntRec2.0 using MAG-BERT and MISA; identified failure mode in causal affective reasoning that became the foundation of CVPR 2026 LXCV work.
+    icon: hero/star
+  - title: Finalist — II Women's Programming Competition MFP
+    awarder: Brazilian Computer Society (SBC)
+    date: "2024-01-01"
+    icon: hero/trophy
+  - title: 1st Place, Computer Science Program (2019–2024)
+    awarder: Universidad Católica San Pablo
+    date: "2024-12-01"
+    icon: hero/academic-cap
